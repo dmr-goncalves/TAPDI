@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace SS_OpenCV {
+	public partial class MatrixInputBox :Form {
+		public MatrixInputBox() {
+			InitializeComponent();
+			this.AcceptButton = button1;
+		}
+	}
+}
